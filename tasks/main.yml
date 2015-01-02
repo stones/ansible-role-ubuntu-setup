@@ -8,6 +8,9 @@
 - name: Install vim incase i ever need to manually edit anything (I know i shouldn't)
   action: apt pkg=vim state=installed
 
+- name: Install git 
+  action: apt pkg=git state=installed
+
 - name: Install fail2ban to prevent brute force attacks 
   action: apt pkg=fail2ban state=installed
 
