@@ -1,4 +1,6 @@
-ansible-role-ubuntu-setup
-=========================
+Ansible Ubuntu Role
+==============
 
-An ansible role for setting up Ubuntu 
+An ansible role for nginx installation. Bare bones at the moment with only the domain name being customisable.
+
+*** This sets the server name to the IP address, not the domain***
